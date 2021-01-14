@@ -27,3 +27,12 @@ URL=<website-url> LOCATION=<your-dir>/critical.css docker-compose up
 ```
 
 the location is relative to the current directory.
+
+
+#### For developers
+
+To rebuild the image you can run:
+```
+$ docker-compose down --volumes
+$ docker-compose up --build
+```
